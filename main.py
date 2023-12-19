@@ -1,5 +1,5 @@
 
-
+import factorial, fibonacci
 #Ilia (Part 3)
 
 def main():
@@ -11,10 +11,10 @@ def main():
 
         if user_selection == 1:
             num = int(input("Enter the integer you'd like to find its factorial: "))
-            print(f"The factorial of {num} is: {factorial(num)}")
+            print(f"The factorial of {num} is: {factorial.factorial(num)}")
         elif user_selection == 2:
             position_sequ = int(input("Enter the sequence position of the fibonacci value: "))
-            print(f"The {position_sequ}th fibonacci is {fibonacci(position_sequ)}")
+            print(f"The {position_sequ}th fibonacci is {fibonacci.fibonacci(position_sequ)}")
         else:
             print("Your selection is invalid. Please select 1 or 2.")
 
