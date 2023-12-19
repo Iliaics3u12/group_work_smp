@@ -1,4 +1,12 @@
 def fibonacci(n):
+    """
+    Calculate the n-th number in a modified Fibonacci sequence starting with 1 and 2
+
+    This function assumes a Fibonacci sequence where the first two terms are 1 and 2 and each subsequent term is the sum of the previous two terms.
+
+    :param n: The position in the sequence for which to calculate the Fibonacci number
+    :return: The n-th Fibonacci number in the modified sequence
+    """
     if n <= 0:
         return 0
     elif n == 1:
