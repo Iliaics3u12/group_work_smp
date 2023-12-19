@@ -24,7 +24,7 @@ def main():
             position_sequ = int(input("Enter the sequence position of the fibonacci value: "))
             print(f"The {position_sequ}th fibonacci is {fibonacci(position_sequ)}")
         else:
-            print("Please select 1 or 2.")
+            print("Your selection is invalid. Please select 1 or 2.")
 
 
 if __name__ == "__main__":
