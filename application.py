@@ -70,16 +70,16 @@ button_select_factorial.pack()
 button_select_fibonacci = tk.Button(root, text="Calculate Fibonacci", command=select_fibonacci)
 button_select_fibonacci.pack()
 
-# Create factorial input and button
+
 label_factorial = tk.Label(root, text="Enter a number for factorial:")
 entry_factorial = tk.Entry(root)
 button_factorial = tk.Button(root, text="Calculate Factorial", command=calculate_factorial)
 
-# Create fibonacci input and button
+
 label_fibonacci = tk.Label(root, text="Enter a position for fibonacci:")
 entry_fibonacci = tk.Entry(root)
 button_fibonacci = tk.Button(root, text="Calculate Fibonacci", command=calculate_fibonacci)
 
-# Run the application
+
 root.mainloop()
 
