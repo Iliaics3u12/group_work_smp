@@ -1,29 +1,6 @@
 import tkinter as tk
 from tkinter import messagebox
-
-def fibonacci(n):
-    if n <= 0:
-        return 0
-    elif n == 1:
-        return 1
-    elif n == 2:
-        return 1
-    else:
-        a, b = 1, 1
-        for _ in range(2, n):
-            a, b = b, a + b
-        return a
-
-def factorial(n):
-    if n < 0:
-        return "Input should be a non-negative integer."
-    elif n == 0 or n == 1:
-        return 1
-    else:
-        fact = 1
-        for i in range(2, n + 1):
-            fact *= i
-        return fact
+import factorial, fibonacci
 
 def calculate_factorial():
     try:
