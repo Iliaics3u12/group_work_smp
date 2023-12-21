@@ -5,7 +5,7 @@ import factorial, fibonacci
 def calculate_factorial():
     try:
         num = int(entry_factorial.get())
-        result = factorial(num)
+        result = factorial.factorial(num)
         messagebox.showinfo("Factorial", f"The factorial of {num} is: {result}")
     except ValueError:
         messagebox.showerror("Error", "Please enter a valid integer.")
@@ -13,7 +13,7 @@ def calculate_factorial():
 def calculate_fibonacci():
     try:
         position = int(entry_fibonacci.get())
-        result = fibonacci(position)
+        result = fibonacci.fibonacci(position)
         messagebox.showinfo("Fibonacci", f"The {position}th fibonacci number is {result}")
     except ValueError:
         messagebox.showerror("Error", "Please enter a valid integer.")
